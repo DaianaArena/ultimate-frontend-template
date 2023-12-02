@@ -20,10 +20,10 @@ const Card = ({ title, desc, CTA, icon, link }) => {
                 {icon}
               </div>
               <div className="flex-grow">
-                <h2 className="text-white text-lg title-font font-medium mb-3">
+                <h2 className="text-gray-800 dark:text-white text-lg title-font font-medium mb-3">
                 {title}
                 </h2>
-                <p className="leading-relaxed text-base">
+                <p className="leading-relaxed text-base text-gray-600 dark:text-gray-400">
                 {desc}
                 </p>
                 <a 

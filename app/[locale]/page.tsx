@@ -17,7 +17,7 @@ export default function Index() {
         <div className="container px-5 py-24 mx-auto">
           <div className="text-center mb-20">
             <motion.h1
-              className="sm:text-3xl text-2xl font-medium title-font text-white mb-4"
+              className="sm:text-3xl text-2xl font-medium title-font text-gray-800 dark:text-white mb-4"
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
