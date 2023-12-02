@@ -1,7 +1,11 @@
 "use client";
 import { motion } from "framer-motion";
 
-const Header = ({ message }) => {
+interface HeaderProps {
+  message: string;
+}
+
+const Header = ({ message }: HeaderProps) => {
   return (
     <motion.div
       className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-600 dark:text-gray-400 text-opacity-80"

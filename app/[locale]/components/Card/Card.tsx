@@ -1,10 +1,17 @@
 "use client";
 import { motion } from "framer-motion";
-//Icons
+import React, { ReactNode } from 'react';
+interface CardProps {
+  title: string;
+  desc: string;
+  CTA: string;
+  icon: ReactNode; 
+  link: string;
+}
 
 
 
-const Card = ({ title, desc, CTA, icon, link }) => {
+const Card = ({ title, desc, CTA, icon, link }: CardProps) => {
 
 
 
