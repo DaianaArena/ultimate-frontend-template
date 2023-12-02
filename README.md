@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.imgur.com/e4xdE7g.png" width="400"></p>
+<p align="center"><img src="https://i.imgur.com/R6PtbVq.png" width="400"></p>
 
 
 # Ultimate Frontend Boilerplate
@@ -68,14 +68,7 @@ npm run dev
 
 Open <a href="http://localhost:3000/" target="_blank" rel="noreferrer">http://localhost:3000/</a> with your browser to see the result.
 
-## Project Architecture
 
-///
-
-## Data Flow Between Frontend and Backend
-
-As an additional benefit, the template includes a custom hook specifically designed for making API requests. This hook simplifies the process of fetching data from APIs, promoting clean and concise code.
-The Ultimate Frontend Template is more than just a starting point; it's a toolbox for developers to accelerate their projects while staying at the forefront of frontend development trends. Whether you're leveraging custom hooks or streamlining API requests, this template is engineered to enhance your development workflow.
 
 ## Build
 
@@ -101,8 +94,8 @@ Thank you for being a part of this community and for considering supporting my w
 
 Your contributions are invaluable! If you have ideas for improvements or encounter issues, please don't hesitate to:
 
-- [Create an Issue](https://github.com/DaianaArena/vite-tailwind-localization-template/issues/new/choose)
-- [Submit a Pull Request](https://github.com/DaianaArena/vite-tailwind-localization-template/compare)
+- [Create an Issue](https://github.com/DaianaArena/ultimate-frontend-template/issues/new/choose)
+- [Submit a Pull Request](https://github.com/DaianaArena/ultimate-frontend-template/compare)
 
 I greatly appreciate your support in making this project even better.
 
