@@ -2,7 +2,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import "../[locale]/globals.css";
 import Providers from "../../providers";
-import Link from "next-intl/link";
+
 
 
 
@@ -36,6 +36,9 @@ export default async function LocaleLayout({ children, params: { locale } }) {
 
   return (
     <html lang={locale}>
+      <head>
+        <title>Ultimate frontend boilerplate</title>
+      </head>
       <body>
         <Providers>
           <NextIntlClientProvider locale={locale} messages={messages}>
