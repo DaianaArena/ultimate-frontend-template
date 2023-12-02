@@ -1,6 +1,19 @@
 {
     "Index": {
-      "title": "Hello world!",
-      "header": "This is a component"
+      "title": "The ultimate frontend boilerplate",
+      "header": "This template aims to streamline the development process by providing a well-architected, scalable, and visually engaging starting point. The Ultimate Frontend Template is crafted to be adaptable, allowing developers to kickstart projects efficiently while maintaining the flexibility to tailor the template to specific project requirements.",
+      "titleT":" Localized Content for Personalized Experiences",
+      "descT": " Create localized versions of your content, ensuring that users feel at home by interacting with your application in their preferred language. ",
+      
+      "titleTW":"Dark Mode, System Mode, and Switch",
+      "descTW": "Let your web application seamlessly adapt to the user's system preferences. Whether they prefer light or dark themes, Tailwind CSS makes it easy to synchronize your app's appearance with the user's system settings.",
+      
+      "titleFM":"Future-Ready Animations",
+      "descFM": "Keep your projects modern and engaging by leveraging Framer Motion's support for cutting-edge animation techniques, giving your users a taste of the latest trends in UI/UX design.",
+      "ctaDOCS": "Learn more",
+      
+      "support":"Use this template"
+      
+
     }
   }

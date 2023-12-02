@@ -1,6 +1,17 @@
 {
     "Index": {
-      "title": "Hola Mundo!",
-      "header": "Esto es un componente"
+      "title": "La plantilla de frontend definitiva",
+      "header": "Esta plantilla pretende agilizar el proceso de desarrollo proporcionando un punto de partida bien diseñado, escalable y visualmente atractivo. La plantilla Ultimate Frontend está diseñada para ser adaptable, lo que permite a los desarrolladores poner en marcha proyectos de manera eficiente, manteniendo la flexibilidad para adaptar la plantilla a los requisitos específicos del proyecto.",
+      "titleT":" Experiencias Localizadas",
+      "descT": " Cree versiones localizadas de su contenido, garantizando que los usuarios se sientan como en casa al interactuar con su aplicación en su idioma preferido. Adapte sus textos para conectar con los usuarios a un nivel más profundo.",
+      
+      "titleTW":"Modo oscuro, predeterminado y switch",
+      "descTW": "Deje que su aplicación web se adapte perfectamente a las preferencias del usuario. Tanto si prefieren temas claros como oscuros, Tailwind CSS facilita la sincronización de la apariencia de tu aplicación con la configuración del sistema del usuario.",
+      
+      "titleFM":"Animaciones para el futuro",
+      "descFM": "Mantenga sus proyectos modernos y atractivos aprovechando la compatibilidad de Framer Motion con técnicas de animación de vanguardia, ofreciendo a sus usuarios una muestra de las últimas tendencias en diseño UI/UX.",
+      "ctaDOCS": "Ver Documentación",
+      
+      "support":"Usa esta plantilla"
     }
   }

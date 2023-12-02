@@ -1,18 +1,17 @@
-'use client';
-import { motion } from "framer-motion"
+"use client";
+import { motion } from "framer-motion";
 
-const Header = ({message }) => {
+const Header = ({ message }) => {
   return (
-    
     <motion.div
-    animate={{
-      scale: [1, 2, 2, 1, 1],
-      rotate: [0, 0, 270, 270, 0],
-      borderRadius: ["20%", "20%", "50%", "50%", "20%"],
-    }}
+      className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400 text-opacity-80"
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5 }}
     >
-    {message}</motion.div>
-  )
-}
+      {message}
+    </motion.div>
+  );
+};
 
-export default Header
+export default Header;
