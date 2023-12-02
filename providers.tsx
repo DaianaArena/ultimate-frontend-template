@@ -1,9 +1,12 @@
 "use client"
 import { ThemeProvider } from 'next-themes';
 import { useEffect, useState } from 'react';
+import { ReactNode } from 'react';
+interface LocaleLayoutProps {
+  children: ReactNode;
+  };
 
-
-const providers = ({children}) => {
+const providers = ({ children }: LocaleLayoutProps) => {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
