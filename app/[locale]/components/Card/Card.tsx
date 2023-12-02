@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 
 
-const Card = ({ title, desc, CTA, icon }) => {
+const Card = ({ title, desc, CTA, icon, link }) => {
 
 
 
@@ -26,7 +26,11 @@ const Card = ({ title, desc, CTA, icon }) => {
                 <p className="leading-relaxed text-base">
                 {desc}
                 </p>
-                <a className="mt-3 text-pink-400 inline-flex items-center">
+                <a 
+                className="mt-3 text-pink-400 inline-flex items-center"
+                href={link}
+                target="_blank"
+                >
                 {CTA}
                   <svg
                     fill="none"

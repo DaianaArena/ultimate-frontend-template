@@ -25,6 +25,25 @@ export default function Index() {
               {t("title")}
             </motion.h1>
             <Header message={t("header")}></Header>
+
+            <a 
+                className="mt-3 text-pink-400 inline-flex items-center"
+                href="https://github.com/DaianaArena/ultimate-frontend-template#ultimate-frontend-boilerplate"
+                target="_blank"
+                >
+                {t("ctaDOCS")}
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
             <div className="flex mt-6 justify-center">
               <div className="w-16 h-1 rounded-full bg-pink-500 inline-flex"></div>
             </div>
@@ -36,32 +55,32 @@ export default function Index() {
               desc={t("descTW")}
               CTA={t("ctaDOCS")}
               icon={<SiTailwindcss size={50}/>}
+              link="https://www.npmjs.com/package/next-themes#with-tailwind"
             />
             <Card 
               title={t("titleFM")}
               desc={t("descFM")}
               CTA={t("ctaDOCS")}
               icon={<MdOutlineAnimation size={50}/>}
+              link="https://www.framer.com/motion/animation/"
             />
             <Card 
               title={t("titleT")}
               desc={t("descT")}
               CTA={t("ctaDOCS")}
               icon={<IoLanguage size={50}/>}
+              link="https://next-intl-docs.vercel.app/docs/getting-started"
             />
             
           </div>
-          <button className="flex mx-auto mt-16 text-white bg-pink-500 border-0 py-2 px-8 focus:outline-none hover:bg-pink-600 rounded text-lg">
-            {t("support")}
-          </button>
+          <a href="https://github.com/new?template_name=ultimate-frontend-template&template_owner=DaianaArena" target="_blank" rel="noopener noreferrer">
+            <button className="flex mx-auto mt-16 text-white bg-pink-500 border-0 py-2 px-8 focus:outline-none hover:bg-pink-600 rounded text-lg">
+              {t("support")}
+            </button>
+          </a>
+          
         </div>
       </section>
     </>
   );
 }
-
-/*
-
-  |
-  <Link href="/pages/About/index.tsx">About</Link>
-*/
